@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 15px;
+        text-align: center;
+        color: hsl(215, 51%, 70%);
+        margin-top: 100px;
+      }
+      .attribution a {
+        color: hsl(178, 100%, 50%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container__card">
+        <div class="container__img">
+          <img
+            src="images/image-equilibrium.jpg"
+            alt="Equilibrium"
+            class="image"
+          />
+        </div>
+        <div class="container__description">
+          <h2 class="description__title">Equilibrium<span>#3429</span></h2>
+          <p class="description__paragraph">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="eth">
+            <span class="eth__description eth__description--color1"
+              ><img
+                src="images/icon-ethereum.svg"
+                alt="icon-ethereum"
+                class="eth__icon"
+              />
+              0.041 ETH</span
+            >
+            <span class="eth__description eth__description--color2"
+              ><img
+                src="images/icon-clock.svg"
+                alt="icon-clock"
+                class="eth__icon"
+              />
+              3 days left</span
+            >
+          </div>
+        </div>
+        <div class="container__creator">
+          <img
+            src="images/image-avatar.png"
+            alt="avatar creator"
+            class="creator__img"
+          />
+          <p class="creator__description">
+            Creation of
+            <span class="creator__description--modifi">Jules Wyvern</span>
+          </p>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.frontendmentor.io/profile/NicoR23">Nicolas</a>.
+      </div>
+    </main>
+  </body>
+</html>
